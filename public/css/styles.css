@@ -1,0 +1,51 @@
+* {
+    background-color: #080E33;
+    color: gray;
+  }
+
+
+.principal {
+    background-color: black;
+    color: gray;
+  }
+
+  .temp {
+    padding: 20px,20px,20px,20px;
+    color: white;
+  }
+
+  .templateConteiner {
+     
+   display: flexbox;
+  }
+
+  .pricipalcont {
+    align-items: center;
+    color: red;
+  }
+
+
+.template h2 {
+  display: inline;
+  color: white;
+  size: 150px;
+  flex-flow: column;
+}
+  .boxin {
+    background-color: white;
+    color: black;
+  }
+
+
+  .icon {
+    margin: 00 px;
+    height: 120px;
+    width: 120px;
+    display: flexbox;
+  }
+
+  .buttonsend_one {
+    background-color: brown;
+  }
+
+  
