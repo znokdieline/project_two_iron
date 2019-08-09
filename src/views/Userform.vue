@@ -1,5 +1,6 @@
 <template>
-  <div class="container col-sm-4" style="@media (max-width: 550px)">
+  <div>
+    <div class="container col-sm-4" style="@media (max-width: 550px)">
     <div>
         <img src="../assets/icon.png" class="icon" alt="">
         <h2 class="card-title">Muchas gracias</h2>
@@ -55,12 +56,14 @@
     </b-form>
    </div>
   </div>
+  </div>
 </template>
 
 <script>
   export default {
     data() {
       return {
+        
         form: {
           rfc: '',
           name: '',

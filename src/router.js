@@ -1,20 +1,17 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-// import Home from './views/Home.vue'
 import Login from './views/Login'
 import NewAccunt from './views/NewAccunt'
 import Userform from './views/Userform'
-import Profile_user from './views/Profile_user'
-import Capture from './views/Capture'
 import Userformsecond from './views/Userformsecond'
 import Userformthird from './views/Userformthird'
+import Profile_user from './views/Profile_user'
+import Capture from './views/Capture'
 import List from './views/List'
+import Welcomepage from './views/Welcomepage'
+import Navbar from './views/Navbar'
 
-// import { LayoutPlugin } from 'bootstrap-vue';
-
-// import BootstrapVue from 'bootstrap-vue'
-
-
+import Proof from './views/Proof'
 
 Vue.use(Router)
 
@@ -22,6 +19,11 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'welcome',
+      component: Welcomepage,
+    },
+    {
+      path: '/login',
       name: 'login',
       component: Login
     },
@@ -60,7 +62,17 @@ export default new Router({
       name: 'list',
       component: List,
     },
-
+    {
+      path: '/navbar',
+      name: 'navabar',
+      component: Navbar,
+    },
+    {
+      path: '/proof',
+      name:'proof',
+      component: Proof
+    },
+    
     
   //  {
   //     path: '/about',

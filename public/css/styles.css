@@ -24,6 +24,9 @@
     color: red;
   }
 
+  div.container {
+    padding: 25px;
+  } 
 
 .template h2 {
   display: inline;
@@ -31,21 +34,38 @@
   size: 150px;
   flex-flow: column;
 }
+
   .boxin {
     background-color: white;
     color: black;
   }
 
+  .iconwelcome {
+    height: 200px;
+    width: 200px;
+  }
 
   .icon {
-    margin: 00 px;
-    height: 120px;
-    width: 120px;
-    display: flexbox;
+    height: 150px;
+    width: 150px;
   }
 
-  .buttonsend_one {
-    background-color: brown;
-  }
 
+  .row.content {height: 750px}
+    
+  .sidenav {
+    height: 100%;
+  }
+    
+  @media screen and (max-width: 575px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    
+    .row.content {height: auto;} 
+  }
+  .pad {
+    padding: 40px;
+  }
   

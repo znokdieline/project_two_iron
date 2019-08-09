@@ -1,5 +1,6 @@
 <template >
-  <div class="container col-sm-4" style="@media (max-width: 575px)">
+  <div>
+    <div class="container col-sm-4" style="@media (max-width: 575px)">
     <img src="../assets/icon.png" class="icon" alt="">
     <div class="card-body">
       <h5 class="card-title">Hola, bien venido a Facturatron</h5>
@@ -50,6 +51,7 @@
       <b-button type="reset" variant="danger">Limpiar campos</b-button>
     </b-form>
     </div>
+  </div>
   </div>
 </template>
 
